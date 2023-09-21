@@ -1,0 +1,187 @@
+/*
+    style.css
+*/
+
+.clear{
+    clear: both;
+}
+
+.container{
+    border: 0px solid red;
+	max-width:60%;/*950px*/
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.copyright{
+	background:#0C5DA5;
+	border-radius: 8px;
+	padding:5px;
+	color:#FFFFFF;
+	font-size:16px;
+	text-align:center;
+	font-weight:bold;
+	height:40px;
+	line-height: 40px;
+}
+
+.body_text{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:40px;
+}
+
+.datacontainer{
+    width:75%;
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+
+table.data {
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top: 20px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+table.data tr th {
+	padding: 5px;
+	border: 2px solid black;
+	text-align: left;
+}
+
+table.data td {
+	padding: 5px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+}
+
+.caption{
+	background:#0C5DA5;
+	border-radius: 8px;
+	padding: 10px; 
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size: 32px;
+}
+
+.logo{
+	position:relative;
+	margin-right:0px;
+	float:right;
+	height:40px;
+	color:#FFFFFF;
+}
+
+a:link,a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#0C5DA5;
+	text-decoration:underline;
+}
+
+.table{
+   display:table;
+}
+
+.table-row{
+   display:table-row;
+}
+
+.table-header-row{
+   display:table-row;
+   font-weight:bold;
+}
+
+.table-cell{
+   display:table-cell;
+   border: 2px solid black;
+   border-width: thin;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   font-size:normal;
+}
+
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0C5DA5;
+  border-radius: 8px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10px;
+}
+
+.container li {
+  float: left;
+}
+
+.container li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+.container li a:hover {
+  background-color: #111;
+}
+
+.container .active {
+  background-color: #4CAF50;
+}
+
+
+.doseChart_container {
+    width: 900px !important;
+    height:600px !important;
+	position: relative;
+}
+
+.simple_table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 5px;
+  }
+  
+  .simple_table td, #labels_table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+.simple_table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.simple_table tr:hover {background-color: #ddd;}
+  
+.simple_table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #808080;
+	color: white;
+  }
+
+  a.header_links:link,a.header_links:visited{
+    color:#FFFFFF;
+  }

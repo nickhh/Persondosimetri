@@ -2,9 +2,13 @@
 Persondosimetri til personale på nuklearmedicinske afdelinger
 
 # Prerequisites
-Det anbefales persondosimetri softwaren køres i docker.
+  * Det anbefales persondosimetri softwaren køres i docker, da alle dependencies er opsat i dockerfilen.
+Ønskes softwaren at køres på en dedikeret server, kræves der php8, mysqli og LDAP.
+Se evt dockerfile.
 
-# Installation
+  * En mysql eller MariaDB database 
+
+# Installation (docker)
 ```
 docker build -t persondosimetri https://github.com/nickhh/Persondosimetri && sudo docker run -d -t -i \
 -e name=value_here \
@@ -22,6 +26,8 @@ docker build -t persondosimetri https://github.com/nickhh/Persondosimetri && sud
 -p 80:80 \
 --name Dosimetri persondosimetri
 ```
+
+
 # License
 Hospital Use License Clause:
 

@@ -1,5 +1,9 @@
 # Persondosimetri
-Persondosimetri til personale på nuklearmedicinske afdelinger
+Persondosimetri til personale primært på nuklearmedicinske afdelinger
+
+# Screenshots
+![alt text](https://github.com/nickhh/Persondosimetri/blob/main/readme/overview.png "screenprint1")
+![alt text](https://github.com/nickhh/Persondosimetri/blob/main/readme/overview2.png "screenprint2")
 
 # Prerequisites
   * Det anbefales persondosimetri softwaren køres i docker, da alle dependencies er opsat i dockerfilen.

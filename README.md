@@ -46,6 +46,10 @@ Miljøvariabler forklaret
 "ldap_host"             : Ldap serveren hostnavn/ip
 ```
 
+# Database
+Importer sql filen fra https://github.com/nickhh/Persondosimetri/blob/main/sql/import_me.sql
+Omdøb database efter behov.
+
 # License
 Hospital Use License Clause:
 
